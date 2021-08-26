@@ -424,3 +424,9 @@ header {
         z-index: 2;
     }
 }
+
+@media (max-width: 380px) {
+    .portfolio a {
+        width: 90%;
+    }   
+}
