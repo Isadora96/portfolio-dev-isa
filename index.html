@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevIsa Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/image3.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre mim</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Oi, eu sou <strong>Isadora Lopes</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev jr.</p>
+            <img src="img/perfil.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>    
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Sobre mim</h2>
+           <p class="section__subtitle section__subtitle--about"> front-end developer</p>
+           
+           <div class="about-me__body">
+               <p>Sou Isadora Lopes uma programadora Front-End situada na cidade de Hortolândia no estado de São Paulo.
+                   Estou no início da minha jornada no desenvolvimento web, com foco na construção de interfaces com as linguagens
+                   HTML, CSS e Javascript com o framework React.
+               </p>
+               <p>Atualmente curso análise e desenvolvimento de sistemas para me aprofundar nessa área pela qual me apaixono mais a cada dia.
+                   Abaixo você encontra os pequenos projetos não comerciais que venho fazendo para aperfeiçoar minhas habilidades.
+               </p>
+           </div>
+           
+           <img src="img/int.jpg" alt="Jane leaning against a bus" class="about-me__img">
+           <div>
+            <a href="#work" class="btn">Meus projetos</a>
+           </div>
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title-work">Alguns dos meus projetos</h2>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://isadora96.github.io/sunnyside-landing-page/" class="portfolio__item"  target="_blank">
+                    <img src="img/landing-page.png" alt="img-portfolio" class="portfolio__img">
+                    <p class="portfolio__p">Landing page agency</p>
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://isadora96.github.io/Momentum-API-/" class="portfolio__item"  target="_blank">
+                    <img src="img/momentum.png" alt="img-portfolio" class="portfolio__img">
+                    <p class="portfolio__p">Momentum-API</p>
+                </a>
+                <!-- Portfolio item 03 -->
+                <a href="https://isadora96.github.io/intro-with-signup-form-master/" class="portfolio__item"  target="_blank">
+                    <img src="img/intro-sign-form.png" alt="img-portfolio" class="portfolio__img">
+                    <p class="portfolio__p">Signup form</p>
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="https://isadora96.github.io/Faq-card-/" class="portfolio__item"  target="_blank">
+                    <img src="img/faq-card.png" alt="img-portfolio" class="portfolio__img">
+                    <p class="portfolio__p">Faq card</p>
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="https://isadoralopes.netlify.app/bootcamp-digitalnovationone-main/netflix/" class="portfolio__item"  target="_blank">
+                    <img src="img/netflix.png" alt="img-portfolio" class="portfolio__img">
+                    <p class="portfolio__p">Netflix</p>
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="https://isadora96.github.io/BlackJack-game/" class="portfolio__item"  target="_blank">
+                    <img src="img/blackjack.png" alt="img-portfolio" class="portfolio__img">
+                    <p class="portfolio__p">BlackJack-game</p>
+                </a>            
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+            <a href="mailto:isadora.c.lopes@gmail.com" class="footer__link" target="_blank">isadora.c.lopes@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/isadoraclopes/" target="_blank">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Isadora96" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>        
+        <script src="js/index.js"></script>
+    </body>
+</html>
