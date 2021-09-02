@@ -304,6 +304,11 @@ header {
     opacity: .8;
 }
 
+.tech {
+    font-style: italic;
+    font-size: 16px;
+}
+
 /* footer */
 
 .footer {
