@@ -256,6 +256,13 @@ header {
 
 .my-work {
     background-color: var(--clr-light);
+}
+.my-certificates {
+    background-color: var(--clr-dark);
+}
+
+.my-work,
+.my-certificates {
     color: var(--clr-accent);
     text-align: center;    
 }
@@ -264,7 +271,8 @@ header {
     margin-bottom: 1.5em;
 }
 
-.portfolio {
+.portfolio,
+.certificates {
     display: grid;
     grid-gap: 2em;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -299,7 +307,8 @@ header {
 }
 
 .portfolio__img:hover,
-.portfolio__item:focus {
+.portfolio__item:focus,
+.certificates__item:hover {
     transform: scale(1.1);
     opacity: .8;
 }
