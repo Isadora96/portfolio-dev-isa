@@ -441,8 +441,8 @@ header {
 }
 
 @media (max-width: 380px) {
-    .portfolio a,
-    .certificates a {
+    .certificates a,
+    .portfolio a {
         width: 90%;
     }   
 }
